@@ -1,7 +1,7 @@
 
-def my_collect(array)
-  counter
-  my_collect(array) do |name|
+def my_collect(collection)
+  i = 0 
+  my_collect(collection) do |name|
     name.split(" ").first 
   end
 end
